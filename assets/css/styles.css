@@ -1,4 +1,4 @@
-.sobre-content {
+.diferença-content {
     position: relative;
     padding-bottom: -6rem;
     top: -1rem;
@@ -8,18 +8,27 @@
     height: 100vh;
 }
 
-.sobre-text-content, .sobre-img {
+.diferença-text-content, .diferença-img {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
 }
 
-.sobre-text-content h3 {
+.diferença-text-content h3 {
     font-size: 4rem;
     margin-bottom: 5rem;
 }
 
-.sobre-img img{
+.diferença-img img{
     max-width: 100%;
     height: auto;
+}
+
+.sobre-content {
+    max-width: 64rem;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
 }
