@@ -59,10 +59,10 @@
   }
   
   .main-bg {
-    background-image: url('../img/main-bg.svg');
+    background-image: url('../img/bullseye-gradient.svg');
     background-size: cover;
     background-position: center center;
-    color: var(--white-color);
+    color: var(--primary-color);
   }
   
   .white-bg {
