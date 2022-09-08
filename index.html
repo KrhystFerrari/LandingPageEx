@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
-<body class="main-bg">
+<body>
     <aside class="menu white-bg">
         <div class="main-content menu-content">
             <h1>
@@ -27,9 +27,8 @@
                 <ul>
                     <li><a href="#diferença">Diferença: Parrilla X Churrasqueira</a></li>
                     <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="#">Nosso Trabalho</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
         </div>
@@ -38,6 +37,7 @@
     <div class="menu-spacing"></div>
 
     <section id="diferença" class="diferença main-bg section">
+        <div class="main-bg"></div>
         <div class="main-content diferença-content">
             <div class="diferença-text-content">
                 <h3>Qual a diferença entre uma churrasqueira a carvão X parrilla argentina?</h3>
@@ -62,7 +62,7 @@
                     churrasco.</p>
             </div>
             <div class="diferença-img">
-                <img src="assets/img/diferença-parrilla-foto.webp" alt="foto-parrilla-diferença">
+                <img src="assets/img/foto-parrilla-diferença.webp" alt="foto-parrilla-diferença">
             </div>
         </div>
     </section>
@@ -71,21 +71,93 @@
     <section id="sobre" class="white-bg section">
         <div class="main-content sobre-content">
             <h2>SOBRE</h2>
-            <p>O LEGÍTIMO SABOR DA CARNE ASSADA.
-
-                Nascemos da paixão pelo verdadeiro sabor da carne assada.
-                
-                A palavra PARRILLAS refere-se a um sistema de grelhas móveis utilizadas para o preparo da carne. Uma técnica da tradição Uruguaia e Argentina.
-                
-                Este sistema permite a você saborear muito mais do que um churrasco. Com as parrilleras, a carne fica separadamente da madeira ou do carvão. A brasa é quem faz o serviço de assar e evitar que ela fique defumada.
-                
-                Do sabor à maciez, à uma carne saudável, com menos gordura. Saborear uma carne assada nas parrilleras é uma experiência incomparável.
-                
-                Queremos que você sinta esse sabor. Conheça nossa linha de parrilleras e utensílios para o preparo de uma carne extremamente saborosa.
-                
-                Proporcione a você e às pessoas que ama, uma nova experiência em saborear o legítimo sabor da carne assada.</p>
+            <p>O LEGÍTIMO SABOR DA CARNE ASSADA.</p>
+            <p>Nascemos da paixão pelo verdadeiro sabor da carne assada.</p>
+            <p>A palavra PARRILLAS refere-se a um sistema de grelhas móveis utilizadas para o preparo da carne. Uma
+                técnica da tradição Uruguaia e Argentina.</p>
+            <p>Este sistema permite a você saborear muito mais do que um churrasco. Com as parrilleras, a carne fica
+                separadamente da madeira ou do carvão. A brasa é quem faz o serviço de assar e evitar que ela fique
+                defumada.</p>
+            <p>Do sabor à maciez, à uma carne saudável, com menos gordura. Saborear uma carne assada nas parrilleras é
+                uma experiência incomparável.</p>
+            <p>Queremos que você sinta esse sabor. Conheça nossa linha de parrilleras e utensílios para o preparo de uma
+                carne extremamente saborosa.</p>
+            <p>Proporcione a você e às pessoas que ama, uma nova experiência em saborear o legítimo sabor da carne
+                assada.</p>
         </div>
     </section>
+
+    <section id="galeria" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Galeria</h2>
+            <p class="grind-description">Algumas imagens de nossos produtos: </p>
+
+            <div class="grid">
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=1" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=2" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=3" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=4" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=5" alt="random image from unsplash" />
+                </div>
+                <div class="gallery-img">
+                    <img src="https://source.unsplash.com/random/360x360?r=6" alt="random image from unsplash" />
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="diferença main-bg section">
+        <div class="main-bg"></div>
+        <div class="main-content diferença-content">
+            <div class="diferença-text-content">
+
+            </div>
+            <div class="contact-form">
+                <fieldset class="form-grid">
+                    <legend class="texto-contato">Contato: </legend>
+
+                    <div class="form-group">
+                        <label for="first-name">Primeiro nome: </label>
+                        <input type="text" name="first-name" id="first-name" placeholder="Primeiro nome:">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="last-name">Sobrenome: </label>
+                        <input type="text" name="last-name" id="last-name" placeholder="Sobrenome">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="e-mail">E-mail: </label>
+                        <input type="e-mail" name="e-mail" id="e-mail" placeholder="e-mail">
+                    </div>
+
+                    <div class="form-group full-width">
+                        <label for="message">Mensagem: </label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Mensagem"></textarea >
+                    </div>
+
+                    <div class="form-group">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer white-bg">
+        <p><a rel="nofollow" target="_blank"href="https://www.linkedin.com/in/krhystofferson-ferrari-011385234/">By: Krhyst Ferrari</a></p>
+    </footer>
 
 </body>
 
