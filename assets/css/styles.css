@@ -1,0 +1,25 @@
+.sobre-content {
+    position: relative;
+    padding-bottom: -6rem;
+    top: -1rem;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: var(--gap);
+    height: 100vh;
+}
+
+.sobre-text-content, .sobre-img {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.sobre-text-content h3 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}
+
+.sobre-img img{
+    max-width: 100%;
+    height: auto;
+}
