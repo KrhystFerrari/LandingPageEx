@@ -6,14 +6,17 @@
   
   html {
     font-size: 62.5%;
-    scroll-behavior: smooth;
   }
   
   body {
     font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
     color: var(--primary-color);
+  }
+
+  html:focus-within {
     scroll-behavior: smooth;
+    overflow-y: scroll;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -33,6 +36,7 @@
   h2 {
     font-size: 5rem;
     padding-bottom: 5rem;
+    padding-top: rem;
   }
   
   h3 {
